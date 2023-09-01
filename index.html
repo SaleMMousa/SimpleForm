@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset class="login">
+            <legend>Login</legend>
+            <div class="username">
+                <label for="username">Username*</label>
+                <br>
+                <input id="username" type="text" name="" required>
+            </div>
+            <div class="pass">
+                <label for="pass">Password*</label>
+                <br>
+                <input id="pass" type="password" name="" required>
+            </div>
+        </fieldset>
+        <fieldset class="gender">
+            <legend>Gender*</legend>
+            <div>
+                <input id="male" type="radio" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input id="female" type="radio" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+        </fieldset>
+        <fieldset class="skill">
+            <legend>Progrmming Skill</legend>
+            <div>
+                <input id="java" type="checkbox">
+                <label for="java">Java</label>
+                <input id="cdp" type="checkbox" checked>
+                <label for="cdp">C++</label>
+                <input id="csh" type="checkbox">
+                <label for="csh">C#</label>
+            </div>
+        </fieldset>
+        <fieldset class="fruit">
+            <legend>Fruit</legend>
+            <div>
+                <label for="fruit">Choose a fruit:</label>
+                <select name="fruit" id="fruit">
+                    <option value="kiwi">Kiwi</option>
+                    <option value="banana" selected>Banana</option>
+                    <option value="orange">Orange</option>
+                    <option value="apple">Apple</option>
+                </select>
+            </div>
+        </fieldset>
+        <textarea
+            placeholder="&lt;!DOCTYPE HTML PUBLIC &#34;-//W3C//DTD HTML 4.01//EN&#34; &#34;http://www.w3.org/TR/html4/strict.dtd&#34;&gt;"
+            cols="100" rows="10"></textarea><br>
+        <input type="submit" value="SEND">
+        <input type="reset" value="RESET">
+    </form>
+</body>
+
+</html>
